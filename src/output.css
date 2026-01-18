@@ -18,6 +18,7 @@
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-800: oklch(27.8% 0.033 256.848);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-sm: 24rem;
@@ -243,8 +244,35 @@
   .right-8 {
     right: calc(var(--spacing) * 8);
   }
+  .right-9 {
+    right: calc(var(--spacing) * 9);
+  }
+  .right-30 {
+    right: calc(var(--spacing) * 30);
+  }
+  .right-40 {
+    right: calc(var(--spacing) * 40);
+  }
+  .right-\[-20px\] {
+    right: -20px;
+  }
+  .right-\[-100px\] {
+    right: -100px;
+  }
+  .right-\[-1000px\] {
+    right: -1000px;
+  }
+  .right-\[-\] {
+    right: -;
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .left-8 {
     left: calc(var(--spacing) * 8);
+  }
+  .left-10 {
+    left: calc(var(--spacing) * 10);
   }
   .left-20 {
     left: calc(var(--spacing) * 20);
@@ -263,6 +291,15 @@
   }
   .left-\[-10px\] {
     left: -10px;
+  }
+  .left-\[-20px\] {
+    left: -20px;
+  }
+  .left-\[-100px\] {
+    left: -100px;
+  }
+  .left-\[-1000px\] {
+    left: -1000px;
   }
   .left-\[0px\] {
     left: 0px;
@@ -324,11 +361,23 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mr-\[100px\] {
+    margin-right: 100px;
+  }
+  .mr-\[200px\] {
+    margin-right: 200px;
+  }
+  .mr-\[300px\] {
+    margin-right: 300px;
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
+  }
+  .ml-\[100px\] {
+    margin-left: 100px;
   }
   .block {
     display: block;
@@ -360,6 +409,12 @@
   .h-\[224px\] {
     height: 224px;
   }
+  .h-\[268px\] {
+    height: 268px;
+  }
+  .h-\[2684px\] {
+    height: 2684px;
+  }
   .h-full {
     height: 100%;
   }
@@ -368,6 +423,9 @@
   }
   .w-6 {
     width: calc(var(--spacing) * 6);
+  }
+  .w-\[2px\] {
+    width: 2px;
   }
   .w-\[50\%\] {
     width: 50%;
@@ -383,6 +441,12 @@
   }
   .w-\[218px\] {
     width: 218px;
+  }
+  .w-\[280px\] {
+    width: 280px;
+  }
+  .w-\[480px\] {
+    width: 480px;
   }
   .w-full {
     width: 100%;
@@ -585,6 +649,10 @@
     --tw-gradient-from: #11AE88;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .from-\[\#FFF1D7\] {
+    --tw-gradient-from: #FFF1D7;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .from-cyan-500 {
     --tw-gradient-from: var(--color-cyan-500);
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -599,6 +667,10 @@
   }
   .to-\[\#11AE88\] {
     --tw-gradient-to: #11AE88;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+  .to-\[\#FFB57F\] {
+    --tw-gradient-to: #FFB57F;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
   .to-\[cyan-500\] {
@@ -805,6 +877,9 @@
   .text-\[white\] {
     color: white;
   }
+  .text-black {
+    color: var(--color-black);
+  }
   .text-blue-500 {
     color: var(--color-blue-500);
   }
@@ -844,6 +919,26 @@
   .lg\:top-\[14px\] {
     @media (width >= 64rem) {
       top: 14px;
+    }
+  }
+  .lg\:top-\[44px\] {
+    @media (width >= 64rem) {
+      top: 44px;
+    }
+  }
+  .lg\:top-\[54px\] {
+    @media (width >= 64rem) {
+      top: 54px;
+    }
+  }
+  .lg\:top-\[57px\] {
+    @media (width >= 64rem) {
+      top: 57px;
+    }
+  }
+  .lg\:top-\[64px\] {
+    @media (width >= 64rem) {
+      top: 64px;
     }
   }
   .lg\:bottom-\[70px\] {
@@ -994,6 +1089,11 @@
   .lg\:gap-\[140px\] {
     @media (width >= 64rem) {
       gap: 140px;
+    }
+  }
+  .lg\:gap-\[170px\] {
+    @media (width >= 64rem) {
+      gap: 170px;
     }
   }
   .lg\:bg-white {
