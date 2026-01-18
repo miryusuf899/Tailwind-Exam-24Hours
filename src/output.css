@@ -256,6 +256,9 @@
   .right-\[-20px\] {
     right: -20px;
   }
+  .right-\[-30px\] {
+    right: -30px;
+  }
   .right-\[-100px\] {
     right: -100px;
   }
@@ -597,12 +600,6 @@
   .border-emerald-400 {
     border-color: var(--color-emerald-400);
   }
-  .bg-\[\#06B3A8\] {
-    background-color: #06B3A8;
-  }
-  .bg-\[\#06B3A81A\] {
-    background-color: #06B3A81A;
-  }
   .bg-\[\#11AE88\] {
     background-color: #11AE88;
   }
@@ -790,6 +787,12 @@
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
   }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
+  }
+  .py-9 {
+    padding-block: calc(var(--spacing) * 9);
+  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -833,9 +836,6 @@
   }
   .text-\[18px\] {
     font-size: 18px;
-  }
-  .text-\[24px\] {
-    font-size: 24px;
   }
   .text-\[30px\] {
     font-size: 30px;
@@ -911,11 +911,6 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .lg\:relative {
-    @media (width >= 64rem) {
-      position: relative;
-    }
-  }
   .lg\:top-\[14px\] {
     @media (width >= 64rem) {
       top: 14px;
@@ -939,41 +934,6 @@
   .lg\:top-\[64px\] {
     @media (width >= 64rem) {
       top: 64px;
-    }
-  }
-  .lg\:bottom-\[70px\] {
-    @media (width >= 64rem) {
-      bottom: 70px;
-    }
-  }
-  .lg\:bottom-\[80px\] {
-    @media (width >= 64rem) {
-      bottom: 80px;
-    }
-  }
-  .lg\:bottom-\[100px\] {
-    @media (width >= 64rem) {
-      bottom: 100px;
-    }
-  }
-  .lg\:left-\[100px\] {
-    @media (width >= 64rem) {
-      left: 100px;
-    }
-  }
-  .lg\:left-\[300px\] {
-    @media (width >= 64rem) {
-      left: 300px;
-    }
-  }
-  .lg\:left-\[330px\] {
-    @media (width >= 64rem) {
-      left: 330px;
-    }
-  }
-  .lg\:left-\[350px\] {
-    @media (width >= 64rem) {
-      left: 350px;
     }
   }
   .lg\:mt-20 {
@@ -1096,14 +1056,14 @@
       gap: 170px;
     }
   }
+  .lg\:bg-\[\#EAF3FD\] {
+    @media (width >= 64rem) {
+      background-color: #EAF3FD;
+    }
+  }
   .lg\:bg-white {
     @media (width >= 64rem) {
       background-color: var(--color-white);
-    }
-  }
-  .lg\:p-1 {
-    @media (width >= 64rem) {
-      padding: calc(var(--spacing) * 1);
     }
   }
   .lg\:p-10 {
@@ -1136,12 +1096,6 @@
     @media (width >= 64rem) {
       font-size: var(--text-4xl);
       line-height: var(--tw-leading, var(--text-4xl--line-height));
-    }
-  }
-  .lg\:text-6xl {
-    @media (width >= 64rem) {
-      font-size: var(--text-6xl);
-      line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
   .lg\:text-xl {
